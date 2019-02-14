@@ -1,3 +1,8 @@
+html {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
 h1 {
-color: blue;
+color: darkviolet;
+text-allign: center; 
 }
