@@ -52,7 +52,7 @@ body {
 /* The progress bar (scroll indicator) */
 .progress-bar {
   height: 8px;
-  background: #6356ce;
+  background: white;
   width: 0%;
 }
 /*Contact me button*/
