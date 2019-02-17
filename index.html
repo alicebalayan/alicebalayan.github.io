@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <meta charset="utf-8"/>
     <title> Alice Balayan | Computer Science Student </title>
+    <meta charset="utf-8"/>
     <meta name="author" content="Alice Balayan">
     <meta name="description" content="Check out my latest resume portfolio. It's cool. I promise.">
     <meta name="keywords" content="Alice, Balayan, resume, portfolio, computer science, student, web development, design">
@@ -14,20 +14,64 @@
     <meta name= "viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no">
     <link rel=”canonical” href=”https://alicebalayan.com” />
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+    </style>
+    <!--html body{
+    margin: 0;
+    height: 0%
+    }-->
 </head>
 <body>
-
-    <h1>ALICE BALAYAN</h1>
-    <div class="typewriter">
-    <h2><center>Welcome to my CS student portfolio page.</center></h2>
-    </div>
+    <div class="h2">
+        <div style="font-size: 24px;">
+            <h2 allign="left">Let's talk</h2>
+       <div><i class="fas fa-hand-point-right fa-2x"></i></div>
+        </div>
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+</div>
+<div class="typewriter">
+  <h1>Hi, I'm Alice Balayan.</h1>
+</div>
+    <h1>Student. Developer. Love nice things.</h1>
     <img src="alicebalayan.png" alt="Alice's picture"style="width:200px;height:200px;"/>
     <p><i>"Love outdoors, <br />
     survive on caffeine <br />
     and good humor."<br />
      -@alicebalayan</i></p>
+    <div class="content">
     <p>I'm a computer science student at <br /> California State University, Northridge. <br />
     I've been studying web development on my own as well as taking <br /> programming classes at school and practicing daily challenges. <br />
     I'm looking for an internship to kick start my future career!</p>
+    <h2>STUFF I DO..</h2>
+    <!--insers 3 table charts-->
+<p>lorem impsum lorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsum</p>
+    <p>lorem impsum lorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsum</p>
+        <p>lorem impsum lorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsum</p>
+        <p>lorem impsum lorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsum</p>
+        <p>lorem impsum lorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsum</p>
+        <p>lorem impsum lorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsum</p>
+        <p>lorem impsum lorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsum</p>
+
+    </div>
+    <script>
+// executing scrolling fucntion
+window.onscroll = function() {myFunction()};
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+    </script>
+
 </body>
 </html>
