@@ -11,6 +11,7 @@ body {
 }
 
 * { color:#fff; text-decoration: none;}
+
 /*Typewriter effect */
 .typewriter h1 {
  overflow: hidden;
@@ -52,7 +53,7 @@ body {
 /* The progress bar (scroll indicator) */
 .progress-bar {
   height: 8px;
-  background: white;
+  background-image: linear-gradient(to right, #ffffcc, #ffff80 50%, #ffff66 50%, #ffff4d);
   width: 0%;
 }
 /*Contact me button*/
