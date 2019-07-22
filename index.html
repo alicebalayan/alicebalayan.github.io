@@ -1,81 +1,62 @@
 <!DOCTYPE html>
-<html lang="en-US">
-<head>
-    <title> Alice Balayan | Computer Science Student </title>
-    <meta charset="utf-8"/>
-    <meta name="author" content="Alice Balayan">
-    <meta name="description" content="Check out my latest resume portfolio. It's cool. I promise.">
-    <meta name="keywords" content="Alice, Balayan, resume, portfolio, computer science, student, web development, design">
-    <meta property=”og:title” content=”My resume portfolio”/>
-    <meta property=”og:site_name” content=”Alice Balayan | Computer Science Student”/>
-    <meta property=”og:description” content=”Check out my latest resume portfoio. It's cool. I promise'”/>
-    <!-- fix social media preview image-->
-    <meta property="og:image" content="https://alicebalayan.com/alicebalayan.png">
-    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <meta name= "viewport" content="minimum-scale=1, initial-scale=1, width=device-width">
-    <link rel=”canonical” href=”https://alicebalayan.com” />
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-    </style>
-    <!--html body{
-    margin: 0;
-    height: 0%
-    }-->
-</head>
-<body>
-  <!-- contact me button-->
-          <div class="h2">
-          <div class="w3-container">
-          <h2 style="float:right;">
-              <i class="fas fa-hand-point-right fa-2x"></i>
-              <button class="w3-btn w3-white w3-border w3-border-white w3-round">Contact</button></h2>
-              </div>
-          <div class="progress-container">
-          <div class="progress-bar" id="myBar"></div>
-              </div>
-              </div>
-    <!--typewriter effect-->
-
-       <div class="typewriter">
-    <h1>Hi, I'm Alice Balayan.</h1>
-       </div>
-
-    <h1>Student. Developer. Love nice things.</h1>
-    <img src="alicebalayan.png" alt="Alice's picture"style="width:200px;height:200px;"/>
-    <p><i>"Love outdoors, <br />
-    survive on caffeine <br />
-    and good humor."<br /></i></p>
-    <div class="content">
-    <p>I'm a computer science student at <br /> California State University, Northridge. <br />
-    I've been studying web development on my own as well as taking <br /> programming classes at school and practicing daily challenges. <br />
-    I'm looking for an internship to kick start my future career!</p>
-    <h2>STUFF I DO..</h2>
-    <!--insert 3 table charts-->
-<p>lorem impsum lorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsum</p>
-<p>lorem impsum lorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsum</p>
-<p>lorem impsum lorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsum</p>
-<p>lorem impsum lorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsum</p>
-<p>lorem impsum lorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsum</p>
-<p>lorem impsum lorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsum</p>
-<p>lorem impsum lorem impsumlorem impsumlorem impsumlorem impsumlorem impsumlorem impsum</p>
-    </div>
-        <script>
-// executing scrolling fucntion
-window.onscroll = function() {myFunction()};
-function myFunction() {
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
+<html>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
 }
-       </script>
+
+.bgimg {
+  background-image: url('andras-vas-Bd7gNnWJBkU-unsplash.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+</style>
+<body>
+
+<div class="bgimg">
+  <div class="topleft">
+    <p>Alice Balayan</p>
+  </div>
+  <div class="middle">
+    <h1>under development</h1>
+    <hr>
+    <p>14 days left</p>
+  </div>
+  <div class="bottomleft">
+  
+  </div>
+</div>
 
 </body>
 </html>
