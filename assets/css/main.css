@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 		float:right;
 	}
 	
-	p
+	li
 	{
 		list-style-type:none;
 		width: 70%;
