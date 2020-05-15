@@ -30,11 +30,6 @@ footer, header, hgroup, menu, nav, section {
 		float:right;
 	}
 	
-	li
-	{
-		list-style-type:none;
-		width: 70%;
-	}
 body {
 	line-height: 1;
 }
