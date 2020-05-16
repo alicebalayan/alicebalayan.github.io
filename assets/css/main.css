@@ -22,6 +22,7 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
+
 	.left{
 		float:left;
 	}
@@ -1761,6 +1762,9 @@ input, select, textarea {
 
 /* Section/Article */
 
+	section { 
+		display: block;
+	}
 	section.special, article.special {
 		text-align: center;
 	}
